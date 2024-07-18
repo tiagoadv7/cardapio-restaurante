@@ -85,7 +85,8 @@ function updateCartModal(){
 
 
         <button class="remove-from-cart-btn" data-name="${item.name}">
-          Remover
+        <i class="remove-from-cart-btn fa-solid fa-trash"></i>
+          Remover 
         </button>
 
       </div>
@@ -183,7 +184,7 @@ checkoutBtn.addEventListener("click", function(){
 
 
   const message = encodeURIComponent(cartItems)
-  const phone = "5591992806448"
+  const phone = "5548988747793"
 
   window.open (`https://wa.me/${phone}?text=${message} Total: ${cartTotal.textContent} Endereço: ${addressInput.value}`, "_blank")
     

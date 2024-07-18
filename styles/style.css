@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 body{
-    background-color: #f6f7f8;
+    background-color: #777777;
 }
 
 .message{
     white-space: pre-warp;
 }
 
+.lootie{
+    align-items: center;
+}
